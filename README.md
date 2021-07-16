@@ -7,8 +7,11 @@ Table of Contents
 - [Usage](#usage-information)
 
 ## Image Examples
-<img src="public\assets\img\Note_Taker_Landing.PNG">
-////////////////////////////////////////////////////////////////
+<img src="public\assets\img\E_commerce_get_all.PNG">
+<img src="public\assets\img\E_commerce_get_one.PNG">
+<img src="public\assets\img\E_commerce_post.PNG">
+<img src="public\assets\img\E_commerce_put.PNG">
+<img src="public\assets\img\E_commerce_delete.PNG">
 
 ## Description
 This project was created as an example for an E-commerce back-end. This is for knowledge purposes on how to work with sequelize and routing.
@@ -26,6 +29,6 @@ Once this is done you should be good to go.
 
 
 ## Usage Information
-When on the landing page the user can click on the "Get Started" button to navigate to the note taking page. Once there, the user is able to see previously made notes in the left-hand column of the page. The user is able to click on a previous note in the left-hand column of the page to see that note fill in the right-hand side of the screen. If the user wants to create a new note, then they can click the "+" button in the navigation bar to start the process. Once that is done, the user needs to add in a title and some note text for their note. When they are done they can click the Save button in the navigation bar to save their note. They can then see their saved note in the left-hand column of the screen.
-//////////////////////////
-Link to app usage video: [E-Commerce Back End]()/////////////////////
+Firstly verify that all instillation instructions are completed. Open the terminal at the top level of the project and run 'npm start' to start the server. Open Insomnia Core so that you can make requests to the server and see the responses. The base level route for this project is localhost:3001/api. From there you can add /categories, /tags, or /products and from there do GET requests to  get all of that type of request. From there you are able to GET things by id by adding another / followed by it's id number. You are also able to POST, PUT, AND DELETE routes using Insomnia Core. 
+
+Link to app usage video: [E-Commerce Back End](https://drive.google.com/file/d/1JawjhhPOr8_rR7GIS1PjU9WSGm40IYHk/view)
